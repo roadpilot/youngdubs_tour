@@ -1,0 +1,5 @@
+#!/usr/bin/env ruby
+
+require_relative '../lib/youngdubs_tour'
+
+YoungdubsTour::CLI.new.start
