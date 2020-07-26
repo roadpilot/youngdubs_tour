@@ -64,7 +64,7 @@ module YoungdubsTour
             puts ""
             puts notice1 + notice2
           when a=="end"
-            puts "May the road rise up to meet you\nMay the wind be always at your back\nMay the sun shine warm upon you face\nUntil we meet again..."
+            puts "May the road rise up to meet you\nMay the wind be always at your back\nMay the sun shine warm upon your face\nUntil we meet again..."
           else
             puts "'Tis only a stepmother would blame you.  Please choose a number between 1 and #{@list.size} to see event details" + notice2
           end
