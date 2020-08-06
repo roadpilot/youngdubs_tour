@@ -1,5 +1,5 @@
 #!/usr/bin/env ruby
 
-require_relative '../lib/youngdubs_tour'
+require_relative '../lib/environment.rb'
 
-YoungdubsTour::CLI.new.start
+YoungdubsTour::CLI.new.starter
